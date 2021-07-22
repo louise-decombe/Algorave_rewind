@@ -4,6 +4,7 @@ import logo from '../images/logo.png';
 const Header = () => {
     return(
         <>
+<header className="header">
 
 <div>
     <img src={logo}>
@@ -26,7 +27,7 @@ const Header = () => {
 
 
 </div>
-
+</header>
         </>
     )
 }

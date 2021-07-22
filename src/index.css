@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
 
-
-:root{
-  --white: hsl
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 code {
@@ -39,10 +40,40 @@ h1, h2, h3, h4, h5 {
   align-items: center;
   justify-content: center;
   height: 700px;
+  padding: 0 20px;
 }
 
 .background .overlay h1 {
+  border: 2px solid white;
   color: white;
   font-size: 50px;
   line-height: 1.5;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  background-color: transparent;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: 0;
+  color:white;
+}
+
+.header .menu-btn {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.header .menu-btn .bar{
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 0 0 3px;
+}
+
+.header nav {
+  display: none;
 }

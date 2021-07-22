@@ -6,7 +6,7 @@ const Background = () => {
         <>
 <section className="background">
     <div className="overlay">
-        <h1>Algorave rewind</h1>
+        <h1>Algorave live code</h1>
     </div>
 </section>
 
