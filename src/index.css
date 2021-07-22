@@ -12,5 +12,37 @@ code {
 
 p{
 font-size: 12px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.header{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Noto Sans JP';
+  text-transform: uppercase ;
+}
+
+.background {
+  background: url('./images/image-hero.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+}
+
+.background .overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+}
+
+.background .overlay h1 {
+  color: white;
+  font-size: 50px;
+  line-height: 1.5;
+}
