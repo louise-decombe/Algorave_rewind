@@ -1,14 +1,16 @@
 import './App.css';
 import Header from './components/Header'
 import Background from './components/Background'
+import Description from './components/Description'
 
 const App = ()=>  {
   return (
-    <div className="Algorave">
+    <>
 
 <Header />
 <Background />
-    </div>
+<Description />
+    </>
   );
 }
 

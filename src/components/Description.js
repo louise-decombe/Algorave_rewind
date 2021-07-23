@@ -9,7 +9,12 @@ export const Description = () => {
             <img src={descriptionImg} alt="illustration"></img>
             </div>
         </section>
-   
+   <div>
+       <h2>Coding music</h2>
+       <p></p>
+   </div>
         </>
     )
 }
+
+export default Description;
